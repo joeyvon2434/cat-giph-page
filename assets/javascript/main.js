@@ -25,7 +25,7 @@ $(document).ready(function () {
 
         let category = $(this).val();
 
-        let queryURL = "http://api.giphy.com/v1/gifs/random?tag=" + category + "&api_key=" + APIkey
+        let queryURL = "https://api.giphy.com/v1/gifs/random?tag=" + category + "&api_key=" + APIkey
 
         $.ajax({
             url: queryURL,

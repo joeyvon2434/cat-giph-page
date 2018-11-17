@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     background: rgb(92, 134, 218);
     background: linear-gradient(to right,rgb(92, 134, 218), #80A4ED, rgb(92, 134, 218));
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
 }
 
 #header {
@@ -32,6 +33,7 @@ body {
     text-align: center;
     color: #F7F0F0;
     text-shadow: 0 0 3px black;
+    
 }
 
 #main-content {
