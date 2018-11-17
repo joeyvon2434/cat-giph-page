@@ -37,7 +37,7 @@ $(document).ready(function () {
             $(".giph").attr("src", response.data.image_original_url);
 
 
-            if (clickCounter >= 25) {
+            if (clickCounter === 25) {
                 let newHeader = $("<h3 id='warning-message'>");
                 newHeader.text("Wow... you really like this! That's awesome, but be careful you don't turn into a cat lady ;-)");
                 $('#giph-box').prepend(newHeader);
